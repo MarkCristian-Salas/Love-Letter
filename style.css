@@ -82,10 +82,10 @@ h1{
 }
 
 .top-image {
-    top: -90px; /* Adjust the positioning as needed */
-    left: 540px; /* Adjust the positioning as needed */
-    position: fixed;
-
+    top: 290px; /* Adjust the positioning as needed */
+    left: 255px; /* Adjust the positioning as needed */
+    position: absolute;
+    width: 200px;
 }
 
 .bottom-image {
@@ -107,14 +107,14 @@ h1{
     transform: rotate(20deg); /* Rotate the image to align it vertically */
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-device-width: 480px) {
     .letter-container {
-        flex-direction: column; /* Stack items vertically on small screens */
+        padding: 20px; /* Increase padding for better spacing on smaller screens */
     }
 
     .letter {
-        width: 100%; /* Full width on small screens */
-        border-radius: 0; /* Remove border radius */
+        padding: 10px; /* Decrease padding for better spacing on smaller screens */
+        border-radius: 5px; /* Adjust border radius for smaller screens */
     }
 
     p {
