@@ -90,21 +90,21 @@ h1{
 .bottom-image {
     bottom: -90px; /* Adjust the positioning as needed */
     left: 540px; /* Adjust the positioning as needed */
-    width: 150px;
+    width: 300px;
 
 }
 
 .left-image {
     left: 100px; /* Adjust the positioning as needed */
     top:350px;
-    width: 150px;
+    width: 300px;
     transform: rotate(-20deg); /* Rotate the image to align it vertically */
 }
 
 .right-image {
     right: 100px; /* Adjust the positioning as needed */
     top:350px;
-    width: 150px;
+    width: 300px;
     transform: rotate(20deg); /* Rotate the image to align it vertically */
 }
 
