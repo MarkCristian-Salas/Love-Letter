@@ -1,83 +1,64 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
     background-image: url('bg1.jpg');
     background-size: cover;
     background-position: center;
-    color: #fff;
 }
 
 .letter-container {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     padding: 20px;
 }
 
 .letter {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 10px;
-    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px;
     max-width: 600px;
-    margin: 0 auto;
-    font-family: Arial, sans-serif;
+    width: 100%;
+    text-align: justify;
+    border-radius: 10px;
 }
 
-a {
-    color: red;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-p {
-    color: black;
-    font-size: 16px;
-    margin-top: 5px;
-}
-
-h1 {
-    color: black;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
-.sticker,
-.ts {
+.sticker {
     position: absolute;
     width: 200px;
 }
 
-.sticker.top-left {
-    top: 20px;
-    left: 20px;
+.top-left {
+    top: 10px;
+    left: 10px;
 }
 
-.sticker.top-right {
-    top: 20px;
-    right: 20px;
+.top-right {
+    top: 10px;
+    right: 10px;
 }
 
-.sticker.top-center {
-    top: 20px;
+.top-center {
+    top: 10px;
     left: 50%;
     transform: translateX(-50%);
 }
 
-.ts.ts-bottom-left {
-    bottom: 20px;
-    left: 20px;
+.ts {
+    position: absolute;
+    width: 200px;
+    bottom: 10px;
 }
 
-.ts.ts-bottom-center {
-    bottom: 20px;
+.ts-bottom-left {
+    left: 10px;
+}
+
+.ts-bottom-center {
     left: 50%;
     transform: translateX(-50%);
 }
 
-.ts.ts-bottom-right {
-    bottom: 20px;
-    right: 20px;
+.ts-bottom-right {
+    right: 10px;
 }
