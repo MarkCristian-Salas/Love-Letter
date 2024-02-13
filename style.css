@@ -53,17 +53,17 @@ h1 {
 }
 
 .top-left {
-    top: 50px;
+    top: 10px;
     left: 10px;
 }
 
 .top-right {
-    top: 50px;
+    top: 10px;
     right: 10px;
 }
 
 .top-center {
-    top: 50px;
+    top: 10px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -71,7 +71,7 @@ h1 {
 .ts {
     position: absolute;
     width: 200px;
-    bottom: 40px;
+    bottom: 10px;
 }
 
 .ts-bottom-left {
