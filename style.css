@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.letter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.letter {
+    background-image: url('bg2.jpg');
+    padding: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p{
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 5px;
+    font-family: 'CursiveFont', cursive;
+    text-indent: 30px;
+}
+
+h1{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    right: 10px;
+    font-family: 'CursiveFont', cursive;
+}
+
+.surrounding-image {
+    position: absolute;
+    width: 10%; /* Set the width to fill the entire width of the letter container */
+    height: auto;
+}
+
+.top-image {
+    top: 10px; /* Adjust the positioning as needed */
+}
+
+.bottom-image {
+    bottom: 10px; /* Adjust the positioning as needed */
+}
+
+.left-image {
+    left: 10px; /* Adjust the positioning as needed */
+    transform: rotate(-90deg); /* Rotate the image to align it vertically */
+}
+
+.right-image {
+    right: 10px; /* Adjust the positioning as needed */
+    transform: rotate(90deg); /* Rotate the image to align it vertically */
+}
+
+.top-image,
+.bottom-image,
+.left-image,
+.right-image {
+    position: absolute;
+    width: 10%; /* Set the width to fill the entire width of the letter container */
+    height: auto;
+}
+
+.top-image {
+    top: -90px; /* Adjust the positioning as needed */
+    left: 540px; /* Adjust the positioning as needed */
+    position: fixed;
+
+}
+
+.bottom-image {
+    bottom: -90px; /* Adjust the positioning as needed */
+    left: 540px; /* Adjust the positioning as needed */
+    position: fixed;
+
+}
+
+.left-image {
+    left: 100px; /* Adjust the positioning as needed */
+    top:350px;
+    transform: rotate(-20deg); /* Rotate the image to align it vertically */
+}
+
+.right-image {
+    right: 100px; /* Adjust the positioning as needed */
+    top:350px;
+    transform: rotate(20deg); /* Rotate the image to align it vertically */
+}
+
+@media screen and (max-width: 768px) {
+    .letter {
+        padding: 10px;
+        max-width: 90%;
+    }
+}
