@@ -60,22 +60,6 @@ h1 {
     font-family: 'CursiveFont', cursive;
 }
 
-.picsur1{
-    top: -15px;
-    left: 10px;
-
-}
-
-.picsur2{
-    top: -15px;
-    left: 10px;
-}
-.paperrings{
-    top: 5px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
 .sticker {
     position: absolute;
     width: 150px;
@@ -160,16 +144,16 @@ h1 {
 }
 
 .paperrings {
-    width: 300px;
+    margin-right: 20px;
+    width: 100px;
 }
-
 .next-buttons {
     display: flex;
     justify-content: center;
 }
 
 .next-link {
-    margin: 0 10px;
+    margin: 15px 10px;
     padding: 10px 40px;
     background-color: transparent;
     border: 2px solid red;
