@@ -33,14 +33,14 @@ a:hover {
 
 p {
     color: black;
-    font-size: 18px;
+    font-size: 22px;
     padding: 10px;
     margin-top: 5px;
     font-family: 'CursiveFont', cursive;
     text-indent: 30px;
 }
 .ask{
-    font-size: medium;
+    font-size: 22px;
 }
 
 h1 {
@@ -76,7 +76,7 @@ h1 {
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
-    width: 500px;
+    width: 400px;
 }
 
 .ts {
