@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .letter-container {
@@ -53,17 +53,17 @@ h1 {
 }
 
 .top-left {
-    top: 1px;
+    top: 5px;
     left: 10px;
 }
 
 .top-right {
-    top: 10px;
+    top: 5px;
     right: 10px;
 }
 
 .top-center {
-    top: 10px;
+    top: 5px;
     left: 50%;
     transform: translateX(-50%);
 }
