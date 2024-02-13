@@ -86,3 +86,26 @@ h1 {
 .ts-bottom-right {
     right: 10px;
 }
+
+.next-button {
+    margin-top: 10px;
+    left: 545px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.next-link {
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.next-link:hover {
+    background-color: red;
+    color: white;
+}
