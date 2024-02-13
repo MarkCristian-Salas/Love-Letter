@@ -82,16 +82,14 @@ h1{
 }
 
 .top-image {
-    top: 290px; /* Adjust the positioning as needed */
-    left: 255px; /* Adjust the positioning as needed */
-    position: absolute;
+    top: 100px; /* Adjust the positioning as needed */
+    left: 155px; /* Adjust the positioning as needed */
     width: 200px;
 }
 
 .bottom-image {
     bottom: -90px; /* Adjust the positioning as needed */
     left: 540px; /* Adjust the positioning as needed */
-    position: fixed;
 
 }
 
