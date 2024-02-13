@@ -1,25 +1,25 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('bg1.jpg');
-    background-size: cover;
-    background-position: center;
 }
 
 .letter-container {
+    position: relative;
+    padding: 10px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
-    padding: 10px
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('bg1.jpg');
 }
 
 .letter {
     background-image: url('bg2.jpg');
     padding: 15px;
     max-width: 100%;
-    margin: 0 auto;
     text-align: justify;
+    border-radius: 10px;
 }
 
 a {
@@ -31,7 +31,7 @@ a:hover {
     text-decoration: underline;
 }
 
-p{
+p {
     color: black;
     font-size: 18px;
     padding: 10px;
@@ -40,71 +40,49 @@ p{
     text-indent: 30px;
 }
 
-h1{
+h1 {
     color: black;
     margin-top: 10px;
     margin-bottom: 5px;
-    right: 10px;
     font-family: 'CursiveFont', cursive;
 }
 
-.surrounding-image {
+.sticker {
     position: absolute;
-    width: 10%; /* Set the width to fill the entire width of the letter container */
-    height: auto;
-}
-
-.top-left {
-    top: 10px; /* Adjust the positioning as needed */
-}
-
-.bottom-left {
-    bottom: 10px; /* Adjust the positioning as needed */
-}
-
-.top-right {
-    left: 10px; /* Adjust the positioning as needed */
-    transform: rotate(90deg); /* Rotate the image to align it vertically */
-}
-
-.bottom-left {
-    right: 10px; /* Adjust the positioning as needed */
-    transform: rotate(90deg); /* Rotate the image to align it vertically */
-}
-
-.top-image,
-.bottom-image,
-.left-image,
-.right-image {
-    position: absolute;
-    width: 10%; /* Set the width to fill the entire width of the letter container */
-    height: auto;
-}
-
-.top-image {
-    top: 20px; /* Adjust the positioning as needed */
-    left: 50px; /* Adjust the positioning as needed */
     width: 200px;
 }
 
-.bottom-image {
-    bottom: -90px; /* Adjust the positioning as needed */
-    left: 540px; /* Adjust the positioning as needed */
-    width: 300px;
-
+.top-left {
+    top: 50px;
+    left: 10px;
 }
 
-.left-image {
-    left: 100px; /* Adjust the positioning as needed */
-    top:350px;
-    width: 300px;
-    transform: rotate(-20deg); /* Rotate the image to align it vertically */
+.top-right {
+    top: 50px;
+    right: 10px;
 }
 
-.right-image {
-    right: 100px; /* Adjust the positioning as needed */
-    top:350px;
-    width: 300px;
-    transform: rotate(20deg); /* Rotate the image to align it vertically */
+.top-center {
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
+.ts {
+    position: absolute;
+    width: 200px;
+    bottom: 40px;
+}
+
+.ts-bottom-left {
+    left: 10px;
+}
+
+.ts-bottom-center {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ts-bottom-right {
+    right: 10px;
+}
