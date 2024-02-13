@@ -61,13 +61,19 @@ h1 {
 }
 
 .picsur1{
-    top: 10px;
+    top: -15px;
     left: 10px;
+
 }
 
-picsur2{
-    top: 10px;
+.picsur2{
+    top: -15px;
     left: 10px;
+}
+.paperrings{
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .sticker {
@@ -125,6 +131,45 @@ picsur2{
 }
 
 .next-link {
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.next-link:hover {
+    background-color: red;
+    color: white;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.picsur1,
+.picsur2 {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.paperrings {
+    width: 300px;
+}
+
+.next-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.next-link {
+    margin: 0 10px;
     padding: 10px 40px;
     background-color: transparent;
     border: 2px solid red;
