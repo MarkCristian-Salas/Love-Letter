@@ -77,7 +77,7 @@ h1{
 .left-image,
 .right-image {
     position: absolute;
-    width: 10%; /* Set the width to fill the entire width of the letter container */
+    width: 5%; /* Set the width to fill the entire width of the letter container */
     height: auto;
 }
 
