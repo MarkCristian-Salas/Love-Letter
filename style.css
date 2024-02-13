@@ -50,6 +50,16 @@ h1 {
     font-family: 'CursiveFont', cursive;
 }
 
+.picsur1{
+    top: 10px;
+    left: 10px;
+}
+
+picsur2{
+    top: 10px;
+    left: 10px;
+}
+
 .sticker {
     position: absolute;
     width: 150px;
