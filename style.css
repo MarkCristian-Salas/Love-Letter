@@ -53,25 +53,25 @@ h1 {
 }
 
 .top-left {
-    top: 10px;
+    top: 5px;
     left: 10px;
 }
 
 .top-right {
-    top: 10px;
+    top: 5px;
     right: 10px;
 }
 
 .top-center {
-    top: 10px;
+    top: 5px;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .ts {
     position: absolute;
-    width: 100px;
-    bottom: 10px;
+    width: 150px;
+    bottom: 30px;
 }
 
 .ts-bottom-left {
