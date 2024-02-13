@@ -65,7 +65,7 @@ h1{
 
 .left-image {
     left: 10px; /* Adjust the positioning as needed */
-    transform: rotate(-90deg); /* Rotate the image to align it vertically */
+    transform: rotate(90deg); /* Rotate the image to align it vertically */
 }
 
 .right-image {
