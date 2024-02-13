@@ -39,6 +39,9 @@ p {
     font-family: 'CursiveFont', cursive;
     text-indent: 30px;
 }
+.ask{
+    font-size: medium;
+}
 
 h1 {
     color: black;
