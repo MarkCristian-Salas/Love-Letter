@@ -108,13 +108,13 @@ h1 {
     right: 10px;
 }
 
-.next-button {
+.next-button1 {
     margin-top: 10px;
     position: relative;
     padding-bottom: 10px;
 }
 
-.next-link {
+.next-link1 {
     padding: 10px 40px;
     background-color: transparent;
     border: 2px solid red;
@@ -125,7 +125,7 @@ h1 {
     transition: background-color 0.3s ease;
 }
 
-.next-link:hover {
+.next-link1:hover {
     background-color: red;
     color: white;
 }
@@ -165,6 +165,100 @@ h1 {
 }
 
 .next-link:hover {
+    background-color: red;
+    color: white;
+}
+
+.video-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 2px solid black;
+    z-index: 1000;
+    background-image: url('bg2.jpg');
+
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.video-popup video {
+    width: 100%;
+}
+
+.next-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.next-button {
+    margin: 15px 10px;
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+    background-color: red;
+}
+
+.video-popup,
+.no-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 2px solid black;
+    z-index: 1000;
+    background-image: url('bg2.jpg');
+    background-size: cover; /* Adjust this property as needed */
+    background-position: center; /* Adjust this property as needed */
+}
+
+.close-button,
+.no-popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.video-popup video {
+    width: 100%;
+}
+
+.next-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.next-button {
+    margin: 15px 10px;
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
     background-color: red;
     color: white;
 }

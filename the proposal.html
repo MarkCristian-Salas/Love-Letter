@@ -19,9 +19,37 @@
             </p>
         </div>
         <div class="next-buttons">
-            <a href="#" class="next-link">Yes</a>
-            <a href="#" class="next-link">No</a>
+            <button class="next-button" id="yes-button">Yes</button>
+            <button class="next-button" id="no-button">No</button>
         </div>
     </div>
+    <div id="video-popup" class="video-popup">
+        <video controls autoplay>
+            <source src="mv.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <button id="close-button" class="close-button">Close</button>
+    </div>
+    <div id="no-popup" class="no-popup">
+        <p>Wrong Answer!</p>
+        <button id="no-popup-close" class="no-popup-close">Close</button>
+    </div>
+    <script>
+        document.getElementById('yes-button').addEventListener('click', function() {
+            document.getElementById('video-popup').style.display = 'block';
+        });
+
+        document.getElementById('close-button').addEventListener('click', function() {
+            document.getElementById('video-popup').style.display = 'none';
+        });
+
+        document.getElementById('no-button').addEventListener('click', function() {
+            document.getElementById('no-popup').style.display = 'block';
+        });
+        document.getElementById('no-popup-close').addEventListener('click', function() {
+            document.getElementById('no-popup').style.display = 'none';
+        });
+
+    </script>
 </body>
 </html>
