@@ -58,23 +58,23 @@ h1 {
 }
 
 .top-left {
-    top: 5px;
+    top: 10px;
     left: 10px;
 }
 
 .top-right {
-    top: 5px;
+    top: 10px;
     right: 10px;
 }
 
 .top-center {
-    top: 5px;
+    top: 10px;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .top-center2 {
-    top: 5px;
+    top: 10px;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
