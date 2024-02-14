@@ -34,7 +34,7 @@ a:hover {
 
 p {
     color: black;
-    font-size: 22px;
+    font-size: 15px;
     padding: 10px;
     margin-top: 5px;
     font-family: 'CursiveFont', cursive;
@@ -166,7 +166,7 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 20px;
+    padding: 10px;
     border: 2px solid black;
     z-index: 1000;
     background-image: url('bg2.jpg');
@@ -175,12 +175,12 @@ h1 {
 
 .close-button {
     position: absolute;
-    top: 10px;
+    top: 5px;
     right: 10px;
 }
 
 .video-popup video {
-    width: 100%;
+    width: 200px;
 }
 
 .next-buttons {
@@ -214,11 +214,12 @@ h1 {
     transform: translate(-50%, -50%);
     padding: 10px; /* Increased padding */
     border: 1px solid black;
-    z-index: 1000;
+    z-index: 61000;
     background-image: url('bg2.jpg');
     background-size: cover;
     background-position: center;
     font-size: 22px;
+
 }
 
 .close-button,
