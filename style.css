@@ -34,7 +34,7 @@ a:hover {
 
 p {
     color: black;
-    font-size: 15px;
+    font-size: 22px;
     padding: 10px;
     margin-top: 5px;
     font-family: 'CursiveFont', cursive;
@@ -218,6 +218,7 @@ h1 {
     background-image: url('bg2.jpg');
     background-size: cover;
     background-position: center;
+    font-size: 22px;
 }
 
 .close-button,
