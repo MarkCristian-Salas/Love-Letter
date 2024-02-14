@@ -12,7 +12,9 @@ body {
     justify-content: center;
     min-height: 100vh;
     background-image: url('bg1.jpg');
+    margin-bottom: 100px;
 }
+
 
 .letter {
     background-image: url('bg2.jpg');
